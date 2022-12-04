@@ -1,18 +1,18 @@
 public class Main {
     public static void main(String[] args) {
 
-        int schet = 200; // сумма на счете
+        int check = 200; // сумма на счете
 
-        int oplata = 300; // пополнение счета
+        int payment = 3000; // пополнение счета
 
-        int bonus = oplata / 100; //расчет бонуса
+        int bonus = payment / 100; //расчет бонуса
         int summa;
 
 
-        if (oplata > 1000) {
-            summa = schet + bonus + oplata;
+        if (payment > 1000) {
+            summa = check + bonus + payment;
         } else {
-            summa = schet + oplata;
+            summa = check + payment;
         }
 
         System.out.println(summa);
